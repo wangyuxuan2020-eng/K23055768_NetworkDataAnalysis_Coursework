@@ -1,0 +1,8 @@
+pandas>=2.0
+networkx>=3.0
+geopandas>=0.14
+matplotlib>=3.7
+osmnx>=1.9
+scipy>=1.11
+shapely>=2.0
+numpy>=1.24
