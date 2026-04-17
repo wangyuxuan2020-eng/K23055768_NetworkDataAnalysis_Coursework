@@ -4,7 +4,7 @@ from itertools import combinations
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR.parent / "data"/ "part1"
+DATA_DIR = BASE_DIR / "data" / "part1"
 
 
 def build_graph(file_name):

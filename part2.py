@@ -14,8 +14,8 @@ from shapely.geometry import Point, box, LineString
 # Paths
 # =========================
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR.parent / "data" / "part2"
-OUTPUT_DIR = BASE_DIR.parent / "outputs"
+DATA_DIR = BASE_DIR / "data" / "part2"
+OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
